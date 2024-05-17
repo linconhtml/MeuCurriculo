@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+  
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a i {
+    margin-right: 5px; /* Adiciona margem entre o ícone e o texto */
+}
+
+body {
+    background-color:#333;
+    
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+
+}
+
+
+#conteudo-principal{
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#conteudo-principal-textos{
+    display: flex;
+   flex-direction: column;
+   text-align: justify;
+   
+}
+
+
+#textos-nome{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5%;
+    font-size: 26px;
+    color: #da2525;
+}
+
+
+#textos-paragrafo{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    font-size: 26px;
+    color: #da2525;
+}
+
+#destaque{
+    color: white;
+}
+
+#conteudo-principal img {
+
+   
+    width: 300px; /* Ajuste o tamanho da foto conforme necessário */
+   
+    border-radius: 10px; /* Adiciona borda circular à foto */
+    margin-right: 20px; /* Adiciona margem à direita da foto para separá-la do texto */
+    box-shadow: 1px 1px 1px red; /* Adiciona uma sombra vermelha ao redor da imagem para destacá-la */
+}
+
+
+
+@media (max-width: 768px) {
+
+    #conteudo-principal{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+}
+
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.botoes a {
+    
+    text-decoration: none;
+    color: #333;
+    background-color: #ddd;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+   
+}
+
+/* Adiciona margem direita para separar o ícone do texto */
+.botoes a i {
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+/* Estiliza o botão quando passa o mouse sobre ele */
+.botoes a:hover {
+    background-color: #da2525;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid red; /* Adiciona uma borda superior vermelha */
+
+}
+
+
+/*estilizacao do conteudo da pagina habilidades*/
+
+
+#conteudo-habilidades{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+} 
+    
+
+#conteudo-habilidades-textos{
+   display: flex;
+   flex-direction: row;
+    
+}
+
+
+#habilidades-textos-nome{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    font-size: 26px;
+    padding: 10px 0 0 30px;
+    color:#da2525;
+
+}
+
+#habilidades-textos-paragrafo{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+    font-size: 26px;
+    color: #da2525;
+}
+
+
+#imagem-habilidades {
+
+   
+    width: 200px; /* Ajuste o tamanho da foto conforme necessário */
+    box-shadow: 1px 1px 1px red; /* Adiciona uma sombra vermelha ao redor da imagem para destacá-la */
+ 
+    border-radius: 10px; /* Adiciona borda circular à foto */
+    margin-right: 20px; /* Adiciona margem à direita da foto para separá-la do texto */
+ 
+}
+
+
+@media (max-width: 768px) {
+
+    #conteudo-habilidades-textos{
+        display: flex;
+        flex-direction: column-reverse;
+         
+     }
+    
+}
+
+#link-certificado{
+
+    align-items: center;
+}
+
+
+/*estilizacao da pagina projetos*/
+
+#section-conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+#projetos-textos{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10%;
+    font-size: 26px;
+    color: #da2525;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#h1-projetos{
+    margin: 0.5%;
+}
+
+
+h1 {
+    margin: 10%;
+}
+
+#p-texto{
+    margin: 1%, 1%, 1%, 5%;
+}
+
+#projetos-imagens{
+    display: flex;
+    margin-left: 10%;
+    gap: 1%;
+    max-width: 100%; /* Garante que as imagens não excedam a largura da div */
+    
+}
+
+
+
+@media (max-width: 768px) {
+    #projetos-imagens {
+        display: flex;
+        flex-direction: column; /* Alinha as imagens em coluna */
+
+        gap: 30%;
+    }
+}
+
+
+#imagem-projeto-ping {
+
+   
+    width: 300px; /* Ajuste o tamanho da foto conforme necessário */
+   
+    border-radius: 10px; /* Adiciona borda circular à foto */
+    margin-right: 20px; /* Adiciona margem à direita da foto para separá-la do texto */
+    box-shadow: 1px 1px 1px red; /* Adiciona uma sombra vermelha ao redor da imagem para destacá-la */
+}
+#imagem-projeto-robotron{
+
+   
+    width: 300px; /* Ajuste o tamanho da foto conforme necessário */
+    height: 180px;;
+    border-radius: 10px; /* Adiciona borda circular à foto */
+    margin-right: 20px; /* Adiciona margem à direita da foto para separá-la do texto */
+    box-shadow: 1px 1px 1px red; /* Adiciona uma sombra vermelha ao redor da imagem para destacá-la */
+}
+
+#imagem-projeto-bateria {
+
+   
+    width: 300px; /* Ajuste o tamanho da foto conforme necessário */
+    height: 180px;;
+    border-radius: 10px; /* Adiciona borda circular à foto */
+    margin-right: 20px; /* Adiciona margem à direita da foto para separá-la do texto */
+    box-shadow: 1px 1px 1px red; /* Adiciona uma sombra vermelha ao redor da imagem para destacá-la */
+}
